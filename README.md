@@ -1,17 +1,10 @@
-# F1 Podium Predictor
+# F1 2026 Race Predictor
 
 A Python project for exploring Formula 1 predictions. It makes an early winner pick before qualifying, ranks podium contenders once the grid is available, and compares its picks with official race results. Everything runs in the terminal.
 
 ## Get started
 
 Use Python 3.10 or later. Open the cloned project folder in VS Code and start a PowerShell terminal there. The folder should contain `predict.py` and `requirements.txt`.
-
-Clone the repository and enter its folder:
-
-```powershell
-git clone https://github.com/Puneet-2005/f1-podium-predictor.git
-Set-Location f1-podium-predictor
-```
 
 Set up the project once:
 
@@ -91,54 +84,3 @@ The backtest trains on earlier races and evaluates each subsequent race in order
 - [FIA decision documents](https://www.fia.com/documents/championships/110/2026) for car presentation disclosures.
 
 Run the test suite with `python -m unittest discover -v` from the project folder. Generated predictions and local caches belong on your machine. The project includes the small race and FIA data files needed for the initial examples.
-
-
-## More commands and model details
-
-The [detailed project guide](docs/usage.md) retains the Ridge grid weighting and
-recent-movement options, grid-delta experiment, all comparison commands, practice
-filtering rules, snapshot safeguards, cutoff definitions, and data limitations.
-
-For a pre-qualifying forecast and its matching chronological backtest:
-
-```powershell
-.\.venv\Scripts\python.exe .\winner_forecast.py --race las-vegas --dashboard --backtest --output predictions/2026/prequalifying
-```
-
-These live examples work only while their forecast windows are open. Use the
-included historical Brazil or Mexico replay at any time. The winner forecast
-uses OpenF1's publicly served race-session roster. Historical entry-list and
-source publication versions cannot be proved from current archives; the winner
-backtest is marked as reconstructed. The live run records when its roster and
-feature inputs were observed. FIA disclosures remain display-only.
-
-On macOS or Linux, create the environment with `python3 -m venv .venv` and use
-`.venv/bin/python` in place of `.\.venv\Scripts\python.exe`.
-
-## Project files
-
-| File | Purpose |
-| --- | --- |
-| `predict.py` | Ridge, grid-delta, podium and winner CLI modes |
-| `winner_forecast.py` | Pre-qualifying winner forecast and chronological baseline comparison |
-| `live_podium.py` | Preserve post-grid live picks and score the original snapshot |
-| `terminal_dashboard.py` | Terminal dashboards and standalone prediction CSV viewer |
-| `practice_pace.py` | Download OpenF1 practice sources and derive clean long-run features |
-| `race_data.py` | Load and refresh Formula 1 result, qualifying and grid data |
-| `compare_models.py` | Chronological full-order, podium and practice comparisons |
-| `grid_weight_experiment.py` | Compare Ridge grid blending settings |
-| `test_*.py` | Offline automated tests with isolated fixtures |
-| `data/2026.json` | Bundled first 20 completed 2026 rounds with source URLs |
-| `data/fia_upgrades_2026.json` | FIA disclosure index and component data |
-| `docs/usage.md` | Detailed instructions and experimental methods |
-
-Only the two small bundled JSON files are versioned. Virtual environments,
-credentials, downloaded caches, Python cache files and generated predictions are
-excluded. Optional practice and winner modes download their own sources; the
-initial historical replay and test suite work without those caches.
-
-Run the complete test suite with the project environment:
-
-```powershell
-.\.venv\Scripts\python.exe -m unittest discover -v
-```
