@@ -4,6 +4,13 @@ A Python project for exploring Formula 1 predictions. It makes an early winner p
 
 ## Get started
 
+Clone the repository and enter its folder in PowerShell.
+
+```powershell
+git clone https://github.com/Puneet-2005/f1-podium-predictor-2026.git
+Set-Location f1-podium-predictor-2026
+```
+
 Use Python 3.10 or later. Open the cloned project folder in VS Code and start a PowerShell terminal there. The folder should contain `predict.py` and `requirements.txt`.
 
 Set up the project once:
