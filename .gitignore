@@ -1,0 +1,39 @@
+# Local environments and Python tooling
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated forecasts and downloaded source caches
+predictions/
+data/*
+!data/2026.json
+!data/fia_upgrades_2026.json
+.cache/
+cache/
+
+# Credentials and local machine configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+credential*.json
+secrets*.json
+secrets.*
+.aws/
+.ssh/
+.codex/
+.agents/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
