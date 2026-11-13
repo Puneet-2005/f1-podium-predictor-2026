@@ -1,0 +1,261 @@
+{
+  "documents": [
+    {
+      "race": "australia",
+      "document": 9,
+      "document_date": "2026-03-06",
+      "document_time_printed": "10:00",
+      "published_at_utc": null,
+      "source_url": "https://www.fia.com/system/files/decision-document/2026_australian_grand_prix_-_car_presentation_submissions.pdf"
+    },
+    {
+      "race": "china",
+      "document": 10,
+      "document_date": "2026-03-13",
+      "document_time_printed": "08:54",
+      "published_at_utc": null,
+      "source_url": "https://www.fia.com/system/files/decision-document/2026_chinese_grand_prix_-_car_presentation_submissions.pdf"
+    },
+    {
+      "race": "japan",
+      "document": 11,
+      "document_date": "2026-03-27",
+      "document_time_printed": "08:58",
+      "published_at_utc": null,
+      "source_url": "https://www.fia.com/system/files/decision-document/2026_japanese_grand_prix_-_car_presentation_submissions.pdf"
+    },
+    {
+      "race": "miami",
+      "document": 8,
+      "document_date": "2026-05-01",
+      "document_time_printed": "09:31",
+      "published_at_utc": null,
+      "source_url": "https://www.fia.com/system/files/decision-document/2026_miami_grand_prix_-_car_presentation_submissions.pdf"
+    },
+    {
+      "race": "canada",
+      "document": 11,
+      "document_date": "2026-05-22",
+      "document_time_printed": "09:55",
+      "published_at_utc": null,
+      "source_url": "https://www.fia.com/system/files/decision-document/2026_canadian_grand_prix_-_car_presentation_submissions.pdf"
+    },
+    {
+      "race": "monaco",
+      "document": 15,
+      "document_date": "2026-06-05",
+      "document_time_printed": "10:55",
+      "published_at_utc": null,
+      "source_url": "https://www.fia.com/system/files/decision-document/2026_monaco_grand_prix_-_car_presentation_submissions.pdf"
+    },
+    {
+      "race": "barcelona-catalunya",
+      "document": 14,
+      "document_date": "2026-06-12",
+      "document_time_printed": "10:57",
+      "published_at_utc": null,
+      "source_url": "https://www.fia.com/system/files/decision-document/2026_barcelona-catalunya_grand_prix_-_car_presentation_submissions.pdf"
+    },
+    {
+      "race": "austria",
+      "document": 14,
+      "document_date": "2026-06-26",
+      "document_time_printed": "10:56",
+      "published_at_utc": null,
+      "source_url": "https://www.fia.com/system/files/decision-document/2026_austrian_grand_prix_-_car_presentation_submissions.pdf"
+    },
+    {
+      "race": "great-britain",
+      "document": 13,
+      "document_date": "2026-07-03",
+      "document_time_printed": "09:54",
+      "published_at_utc": null,
+      "source_url": "https://www.fia.com/system/files/decision-document/2026_british_grand_prix_-_car_presentation_submissions.pdf"
+    },
+    {
+      "race": "belgium",
+      "document": 12,
+      "document_date": "2026-07-17",
+      "document_time_printed": "12:08",
+      "published_at_utc": null,
+      "source_url": "https://www.fia.com/system/files/decision-document/2026_belgian_grand_prix_-_car_presentation_submissions.pdf"
+    },
+    {
+      "race": "hungary",
+      "document": 9,
+      "document_date": "2026-07-24",
+      "document_time_printed": "10:54",
+      "published_at_utc": null,
+      "source_url": "https://www.fia.com/system/files/decision-document/2026_hungarian_grand_prix_-_car_presentation_submissions.pdf"
+    },
+    {
+      "race": "netherlands",
+      "document": 10,
+      "document_date": "2026-08-21",
+      "document_time_printed": "09:50",
+      "published_at_utc": null,
+      "source_url": "https://www.fia.com/system/files/decision-document/2026_dutch_grand_prix_-_car_presentation_submissions.pdf"
+    },
+    {
+      "race": "italy",
+      "document": 10,
+      "document_date": "2026-09-04",
+      "document_time_printed": "09:54",
+      "published_at_utc": null,
+      "source_url": "https://www.fia.com/system/files/decision-document/2026_italian_grand_prix_-_car_presentation_submissions.pdf"
+    },
+    {
+      "race": "spain",
+      "document": 11,
+      "document_date": "2026-09-11",
+      "document_time_printed": "11:00",
+      "published_at_utc": null,
+      "source_url": "https://www.fia.com/system/files/decision-document/2026_spanish_grand_prix_-_car_presentation_submissions.pdf"
+    },
+    {
+      "race": "azerbaijan",
+      "document": 11,
+      "document_date": "2026-09-24",
+      "document_time_printed": "09:50",
+      "published_at_utc": null,
+      "source_url": "https://www.fia.com/system/files/decision-document/2026_azerbaijan_grand_prix_-_car_presentation_submissions.pdf"
+    },
+    {
+      "race": "bahrain",
+      "document": 12,
+      "document_date": "2026-10-02",
+      "document_time_printed": "10:03",
+      "published_at_utc": null,
+      "source_url": "https://www.fia.com/system/files/decision-document/2026_bahrain_grand_prix_in_malaysia_-_car_presentation_submissions.pdf"
+    },
+    {
+      "race": "singapore",
+      "document": 9,
+      "document_date": "2026-10-09",
+      "document_time_printed": "13:53",
+      "published_at_utc": null,
+      "source_url": "https://www.fia.com/system/files/decision-document/2026_singapore_grand_prix_-_car_presentation_submissions.pdf"
+    },
+    {
+      "race": "united-states",
+      "document": 11,
+      "document_date": "2026-10-23",
+      "document_time_printed": "09:55",
+      "published_at_utc": null,
+      "source_url": "https://www.fia.com/system/files/decision-document/2026_united_states_grand_prix_-_car_presentation_submissions.pdf"
+    },
+    {
+      "race": "mexico",
+      "document": 12,
+      "document_date": "2026-10-30",
+      "document_time_printed": "09:53",
+      "published_at_utc": "2026-10-30T16:00:00Z",
+      "source_url": "https://www.fia.com/system/files/decision-document/2026_mexico_city_grand_prix_-_car_presentation_submissions.pdf"
+    },
+    {
+      "race": "brazil",
+      "document": 12,
+      "document_date": "2026-11-06",
+      "document_time_printed": "10:05",
+      "published_at_utc": "2026-11-06T14:32:00Z",
+      "source_url": "https://www.fia.com/system/files/decision-document/2026_sao_paulo_grand_prix_-_car_presentation_submissions.pdf"
+    }
+  ],
+  "fully_transcribed_races": [
+    "mexico",
+    "brazil"
+  ],
+  "upgrades": [
+    {
+      "race": "mexico",
+      "team": "McLaren",
+      "component": "Cooling louvres",
+      "category": "Circuit-specific cooling",
+      "pdf_page": 2
+    },
+    {
+      "race": "mexico",
+      "team": "Red Bull Racing",
+      "component": "Engine cover",
+      "category": "Reliability",
+      "pdf_page": 5
+    },
+    {
+      "race": "mexico",
+      "team": "Red Bull Racing",
+      "component": "Sidepod",
+      "category": "Performance",
+      "pdf_page": 5
+    },
+    {
+      "race": "mexico",
+      "team": "Ferrari",
+      "component": "Engine cover",
+      "category": "Circuit-specific cooling",
+      "pdf_page": 7
+    },
+    {
+      "race": "mexico",
+      "team": "Ferrari",
+      "component": "Cooling louvres",
+      "category": "Circuit-specific cooling",
+      "pdf_page": 7
+    },
+    {
+      "race": "mexico",
+      "team": "Racing Bulls",
+      "component": "Engine cover",
+      "category": "Circuit-specific cooling",
+      "pdf_page": 10
+    },
+    {
+      "race": "mexico",
+      "team": "Racing Bulls",
+      "component": "Cooling louvres",
+      "category": "Circuit-specific cooling",
+      "pdf_page": 10
+    },
+    {
+      "race": "mexico",
+      "team": "Audi",
+      "component": "Rear corner",
+      "category": "Performance",
+      "pdf_page": 14
+    },
+    {
+      "race": "mexico",
+      "team": "Alpine",
+      "component": "Exhaust tailpipe",
+      "category": "Reliability",
+      "pdf_page": 16
+    },
+    {
+      "race": "brazil",
+      "team": "McLaren",
+      "component": "Front wing",
+      "category": "Performance",
+      "pdf_page": 2
+    },
+    {
+      "race": "brazil",
+      "team": "McLaren",
+      "component": "Rear wing",
+      "category": "Performance",
+      "pdf_page": 2
+    },
+    {
+      "race": "brazil",
+      "team": "McLaren",
+      "component": "Beam wing",
+      "category": "Performance",
+      "pdf_page": 2
+    },
+    {
+      "race": "brazil",
+      "team": "McLaren",
+      "component": "Floor furniture",
+      "category": "Performance",
+      "pdf_page": 2
+    }
+  ]
+}
