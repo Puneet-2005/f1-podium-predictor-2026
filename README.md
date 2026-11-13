@@ -28,6 +28,31 @@ Run a historical replay first. This works with the included race dataset:
 
 The dashboard shows the predicted order, starting grid, actual finishes, and average position error. The command prints the path to the full CSV.
 
+## Terminal dashboard
+
+Run the São Paulo replay from the project folder after installing `requirements.txt`. The `--dashboard` flag opens the formatted view in your terminal and the program still saves the full prediction CSV.
+
+```powershell
+.\.venv\Scripts\python.exe .\predict.py --race brazil --dashboard
+```
+
+This replay uses the bundled `data/2026.json` and trains on the 19 earlier races. Example output:
+
+```text
+F1 2026 | BRAZIL
+Ridge (grid weight 0) trained on 19 earlier races
+P1 NOR  |  P2 ANT  |  P3 HAD
+Podium picks 2/3  |  Winner Correct
+MAE 3.00 positions  |  Starting grid 5.45
+```
+
+- **Grid** is where the driver started. **Actual** is where they finished. **Error** is the absolute difference between the predicted and actual positions.
+- **MAE** is the average error across drivers with results. Lower is better. The starting-grid score uses each driver's starting position as the prediction.
+- **Podium picks** counts drivers who finished in the top three, in any order. With `--model podium`, the dashboard shows pick ranks and podium scores. The scores are uncalibrated.
+- **FIA car disclosures** show reported changes and the source document where available. The model uses these disclosures for display only.
+
+Choose another race with `--race`. For an upcoming race, run with `--update` once the starting grid is published. The dashboard shows **Race result pending** until actual finishes are available.
+
 ## Forecast a race
 
 | What you want | Script | What you need |
